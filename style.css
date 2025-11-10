@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #2F281E;
+  background-color: #fff;
+}
+
+.container {
+  width: 1140px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo img {
+  width: 150px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #2F281E;
+  font-weight: 500;
+  transition: opacity 0.2s ease-in;
+}
+
+.menu a:hover {
+  opacity: 0.6;
+}
+
+.menu a.active {
+  color: #FF9900;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-signin,
+.btn-signup {
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease-in;
+}
+
+.btn-signin {
+  background: transparent;
+  border: 1px solid #BCD0E5;
+  color: #2F281E;
+}
+
+.btn-signin:hover {
+  background-color: #BCD0E5;
+}
+
+.btn-signup {
+  background-color: #FF9900;
+  border: none;
+  color: #fff;
+}
+
+.btn-signup:hover {
+  background-color: #e58900;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #2F281E;
+}
+
+.hero p {
+  color: #544837;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.btn-started {
+  background-color: #FF9900;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.btn-started:hover {
+  background-color: #e58900;
+  transform: scale(1.05);
+}
+
+.hero-image img {
+  max-width: 500px;
+  height: auto;
+}
+
+.tools {
+  padding: 120px 0 120px;
+  background: linear-gradient(180deg, #fff 85%, #FFF3E4 100%);
+}
+
+.tools-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.tools-title {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 80px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #2F281E;
+}
+
+.tools-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.tool {
+  flex: 1;
+  text-align: left;
+}
+
+.tool-icon-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.tool h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2F281E;
+  margin-bottom: 10px;
+}
+
+.tool p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #544837;
+}
+
+.tools-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.tools-btn {
+  background-color: #FF9900;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tools-btn:hover {
+  background-color: #e68a00;
+  transform: scale(1.05);
+}
+.footer {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2F281E;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #544837;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #FF9900;
+}
+
+.footer-signup p {
+  color: #2F281E;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signup-form input {
+  padding: 12px 15px;
+  border: 1px solid #BCD0E5;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.signup-form .btn-started {
+  width: 150px;
+  align-self: flex-start;
+  background-color: #FF9900;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.signup-form .btn-started:hover {
+  background-color: #e68a00;
+  transform: scale(1.05);
+}
